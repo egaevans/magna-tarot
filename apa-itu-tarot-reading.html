@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+
+  <title>Apa Itu Tarot Reading dan Bagaimana Cara Kerjanya? | Magna Tarot</title>
+  <meta name="description" content="Kenali apa itu tarot reading, bagaimana cara kerja kartu tarot, dan bagaimana tarot bisa menjadi media refleksi untuk memahami kehidupan.">
+
+  <link rel="canonical" href="https://magnatarot.com/apa-itu-tarot-reading.html">
+  <meta name="theme-color" content="#07101f">
+
+  <meta property="og:title" content="Apa Itu Tarot Reading dan Bagaimana Cara Kerjanya?">
+  <meta property="og:description" content="Mengenal tarot reading, simbol kartu, dan penggunaannya sebagai media refleksi diri bersama Magna Tarot.">
+  <meta property="og:url" content="https://magnatarot.com/apa-itu-tarot-reading.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Magna Tarot">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #07101f;
+      --gold: #d9ad61;
+      --gold2: #f2d69a;
+      --cream: #f3eadb;
+      --muted: #b8bdc8;
+      --line: rgba(217,173,97,.35);
+      --serif: "Cormorant Garamond", Georgia, serif;
+      --sans: "Manrope", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--navy);
+      color: var(--cream);
+      font: 15px/1.8 var(--sans);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(rgba(3,9,19,.88),rgba(3,9,19,.96)),
+        url("assets/background-library.png") center/cover no-repeat;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .wrap {
+      width: min(1100px, calc(100% - 36px));
+      margin: auto;
+    }
+
+    .nav-shell {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(4,10,20,.97);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      color: var(--gold2);
+      font: 600 1.5rem var(--serif);
+      letter-spacing: .08em;
+    }
+
+    .brand small {
+      display: block;
+      text-align: right;
+      font-size: .75rem;
+      line-height: .8;
+      font-style: italic;
+      letter-spacing: 0;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      font-size: .72rem;
+    }
+
+    .nav-links a:hover { color: var(--gold2); }
+
+    .hero {
+      padding: 75px 0 55px;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(90deg,rgba(3,9,19,.93),rgba(3,9,19,.62)),
+        url("assets/hero-magna-tarot.jpg") center 42%/cover;
+    }
+
+    .eyebrow {
+      color: var(--gold2);
+      text-transform: uppercase;
+      letter-spacing: .2em;
+      font-size: .7rem;
+      font-weight: 700;
+    }
+
+    h1, h2, h3 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+
+    h1 {
+      color: var(--gold2);
+      font-size: clamp(2.5rem, 6vw, 4.4rem);
+      max-width: 850px;
+      margin: 15px 0;
+    }
+
+    h2 {
+      color: var(--gold2);
+      font-size: clamp(1.9rem, 4vw, 2.6rem);
+      margin-top: 42px;
+    }
+
+    h3 {
+      color: var(--gold2);
+      font-size: 1.5rem;
+    }
+
+    .hero p {
+      max-width: 760px;
+      color: #d7d8de;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: .75rem;
+      margin-top: 20px;
+    }
+
+    .article-section {
+      padding: 55px 0 70px;
+    }
+
+    .article-body {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .article-body p,
+    .article-body li {
+      color: #d7d8de;
+      font-size: .96rem;
+      line-height: 1.95;
+    }
+
+    .article-body ul {
+      padding-left: 23px;
+    }
+
+    .article-body li {
+      margin: 9px 0;
+    }
+
+    .highlight {
+      border-left: 2px solid var(--gold);
+      padding: 16px 22px;
+      margin: 30px 0;
+      background: rgba(217,173,97,.07);
+      color: var(--cream);
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      line-height: 1.6;
+    }
+
+    .cta {
+      margin-top: 45px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 24px 5px 24px 5px;
+      background: rgba(4,12,24,.9);
+    }
+
+    .cta p { color: #d7d8de; }
+
+    .btn {
+      display: inline-block;
+      margin: 8px 8px 0 0;
+      padding: 11px 17px;
+      border: 1px solid var(--gold);
+      color: var(--gold2);
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg,#f0d59b,#c48b3c);
+      color: #101521;
+    }
+
+    .breadcrumb {
+      color: var(--muted);
+      font-size: .75rem;
+      margin-bottom: 22px;
+    }
+
+    .breadcrumb a:hover { color: var(--gold2); }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: rgba(2,7,15,.8);
+      padding: 30px 0;
+      color: var(--muted);
+      font-size: .75rem;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    footer a:hover { color: var(--gold2); }
+
+    @media(max-width:700px) {
+      .nav {
+        padding: 12px 0;
+        gap: 10px;
+      }
+
+      .nav-links {
+        width: 100%;
+        gap: 8px 14px;
+      }
+
+      .hero { padding: 52px 0 40px; }
+
+      .article-section { padding: 35px 0 50px; }
+
+      .article-body p,
+      .article-body li {
+        font-size: .9rem;
+      }
+
+      .cta { padding: 22px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="nav-shell">
+  <nav class="nav wrap" aria-label="Navigasi utama">
+    <a class="brand" href="index.html">
+      MAGNA
+      <small>tarot</small>
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="layanan.html">Layanan</a>
+      <a href="panduan-booking.html">Panduan Booking</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="index.html#kontak">Kontak</a>
+    </div>
+  </nav>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> /
+      <a href="artikel.html">Artikel</a> /
+      Tarot Basics
+    </div>
+
+    <div class="eyebrow">Magna Tarot Journal · Tarot Basics</div>
+
+    <h1>Apa Itu Tarot Reading dan Bagaimana Cara Kerjanya?</h1>
+
+    <p>
+      Pernah penasaran bagaimana kartu tarot bisa memberikan insight
+      yang terasa dekat dengan kehidupan seseorang? Yuk, kenali tarot
+      lebih jauh dan bagaimana proses reading sebenarnya berlangsung.
+    </p>
+
+    <div class="meta">Magna Tarot · 6 menit baca</div>
+  </div>
+</header>
+
+<main class="article-section">
+  <article class="article-body">
+
+    <p>
+      Tarot adalah sekumpulan kartu bergambar yang memiliki ilustrasi,
+      simbol, dan makna tertentu. Dalam sebuah sesi tarot reading,
+      kartu digunakan sebagai media untuk mengeksplorasi pertanyaan,
+      situasi, atau perasaan dari sudut pandang yang berbeda.
+    </p>
+
+    <p>
+      Bagi sebagian orang, tarot terhubung dengan spiritualitas dan
+      intuisi. Bagi yang lain, tarot dapat dipakai sebagai alat refleksi—
+      mirip dengan menggunakan sebuah gambar, cerita, atau pertanyaan
+      untuk membuka cara pandang baru. Tidak semua orang memaknainya
+      dengan cara yang sama, dan itu tidak apa-apa.
+    </p>
+
+    <div class="highlight">
+      Tarot bukan hanya tentang mencari tahu apa yang akan terjadi,
+      tetapi juga tentang memahami apa yang sedang kita alami saat ini.
+    </div>
+
+    <h2>Bagaimana cara kerja tarot reading?</h2>
+
+    <p>
+      Biasanya, seseorang datang dengan pertanyaan atau hal yang sedang
+      ingin dipahami. Tarot reader kemudian melakukan pembacaan kartu
+      dan menginterpretasikan simbol-simbol yang muncul sesuai konteks
+      pertanyaan tersebut.
+    </p>
+
+    <p>
+      Setiap kartu memiliki simbol dan tema yang dapat dikaitkan dengan
+      berbagai pengalaman manusia. Melalui interpretasi tersebut,
+      sebuah situasi bisa dilihat dari perspektif yang mungkin belum
+      terpikirkan sebelumnya.
+    </p>
+
+    <h2>Jadi, apakah tarot itu mistis?</h2>
+
+    <p>
+      Tarot sering diasosiasikan dengan hal mistis karena ilustrasinya
+      memakai simbol, arketipe, bulan, bintang, dan gambaran spiritual.
+      Namun pengalaman tarot tidak harus menakutkan.
+    </p>
+
+    <p>
+      Di Magna Tarot, kartu diperlakukan sebagai sarana membaca simbol
+      dan mengembangkan refleksi secara intuitif. Kamu tidak harus
+      percaya pada satu penjelasan tertentu untuk mulai memahami tarot.
+      Kamu boleh penasaran, bertanya, atau memilih untuk tidak
+      melanjutkan jika pendekatannya tidak cocok dengan keyakinanmu.
+    </p>
+
+    <h2>Apakah tarot bisa memprediksi masa depan?</h2>
+
+    <p>
+      Tarot tidak dapat menjamin bahwa sesuatu pasti akan terjadi.
+      Reading dapat mengeksplorasi kemungkinan, pola yang sedang
+      berlangsung, dan faktor yang mungkin perlu diperhatikan.
+      Namun masa depan dipengaruhi oleh keputusan, tindakan,
+      lingkungan, serta hal-hal yang bisa berubah.
+    </p>
+
+    <p>
+      Karena itu, hasil tarot lebih sehat dipakai sebagai bahan
+      pertimbangan daripada keputusan final. Jika reading membuatmu
+      melihat situasi dari sudut pandang baru, kamu bisa membawa
+      insight tersebut ke dalam proses berpikir dan memilih langkah
+      yang realistis.
+    </p>
+
+    <h2>Hal apa saja yang bisa ditanyakan?</h2>
+
+    <p>
+      Pertanyaan tarot dapat berkaitan dengan percintaan, hubungan,
+      karier, keuangan, keputusan hidup, pengembangan diri, atau
+      pola yang terasa berulang.
+    </p>
+
+    <p>Daripada hanya bertanya "Apa yang akan terjadi?", kamu juga bisa bertanya:</p>
+
+    <ul>
+      <li>Apa yang perlu aku pahami dari situasi ini?</li>
+      <li>Pola apa yang mungkin sedang berulang dalam hidupku?</li>
+      <li>Hal apa yang sebaiknya aku pertimbangkan sebelum mengambil keputusan?</li>
+      <li>Perspektif apa yang belum aku lihat?</li>
+    </ul>
+
+    <h2>Tarot dan tanggung jawab pribadi</h2>
+
+    <p>
+      Reading yang baik tidak mengambil alih kendali hidupmu. Kartu
+      dapat membantu memulai refleksi, tetapi kamu tetap perlu
+      mempertimbangkan fakta, nilai pribadi, keselamatan, dan
+      konsekuensi dari setiap pilihan.
+    </p>
+
+    <p>
+      Tarot juga bukan pengganti psikolog, dokter, pengacara, atau
+      penasihat keuangan. Jika kamu menghadapi masalah kesehatan,
+      keselamatan, hukum, atau keuangan yang serius, cari bantuan
+      profesional yang sesuai.
+    </p>
+
+    <div class="cta">
+      <div class="eyebrow">Your journey starts here</div>
+      <h3>Ingin mencoba tarot reading pertamamu?</h3>
+
+      <p>
+        Kamu tidak perlu punya semua jawaban sebelum memulai.
+        Ceritakan hal yang ingin kamu pahami, lalu temukan sesi
+        yang sesuai dengan kebutuhanmu.
+      </p>
+
+      <a class="btn btn-gold" href="layanan.html">
+        Lihat Layanan Tarot
+      </a>
+
+      <a class="btn" href="panduan-booking.html">
+        Panduan Booking
+      </a>
+    </div>
+
+  </article>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Magna Tarot. Made with intention.</span>
+
+    <span>
+      <a href="https://instagram.com/magna_tarot_" target="_blank" rel="noopener">Instagram</a>
+      ·
+      <a href="https://tiktok.com/@magna_tarot" target="_blank" rel="noopener">TikTok</a>
+      ·
+      <a href="https://youtube.com/@magnatarotindonesia" target="_blank" rel="noopener">YouTube</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
